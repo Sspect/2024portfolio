@@ -1,0 +1,27 @@
+a:hover i {
+    animation: fa-bounce 1s infinite;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+a:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+@keyframes fa-bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
