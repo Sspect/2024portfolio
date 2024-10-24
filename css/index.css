@@ -1,11 +1,10 @@
-#about {
-    width: 1000px;
-    margin: auto;
-}
+
 
 img {
     display:flex;
     margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
     width: 400px;
     height: 500px;
     object-fit: cover;
