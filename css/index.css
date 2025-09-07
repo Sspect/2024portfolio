@@ -1,15 +1,6 @@
-
-
-img {
-    display:flex;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 400px;
-    height: 500px;
-    object-fit: cover;
-    object-position:0px -300px;
-    border-radius: 10px;
-    border: solid black 5px;
-    margin-bottom: 20px;
+#cabinet-img { 
+    width: 300px; 
+    height: auto; 
+    display: block;
 }
+
