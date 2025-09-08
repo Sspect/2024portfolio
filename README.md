@@ -1,5 +1,5 @@
 # 2024portfolio
- A portfolio made by Bastian Stokke Opsahl in 2024.
+ A portfolio made by Bastian Stokke Opsahl in 2025.
 
 
 / (root folder)
