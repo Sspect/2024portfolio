@@ -7,18 +7,20 @@
     <title>Bastian Stokke Opsahl</title>
     <link rel="icon" type="image/x-icon" href="img/icons/icon1.png">
     <link rel="stylesheet" href="css/global.css">
-    <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/cursor.css">
-    <script src="js/cursorColorTrail.js" defer></script>
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/typewriter/playsOnce.js" defer></script>
 </head>
 
 <body>
 
     <!-- Typewriter effect inspired by https://css-tricks.com/snippets/css/typewriter-effect/   -->
-    <div id="container1" class="green-color-trail-cursor">
-        <h1 class="typewriter" style="--n: 24;">
+    <div id="container1" class="container1-inner">
+        <h1 class="typewriter" data-auto="true" style="--n:24; --speed:2s; --delay:0.6s;">
             Welcome to my portfolio!
         </h1>
+
         <div class="trail-layer">
 
         </div>
@@ -51,7 +53,7 @@
 
     <div id="container3">
         <div class="container3-inner">
-            <h2> Projects</h2>
+            <h2 class="typewriter" style="--n: 8; --speed: 1s;">Projects</h2>
 
 
             <img src="img/assets/greenCabinet/greenCabinet0.png" usemap="#cabinet-map" id="cabinet-img"
@@ -96,8 +98,8 @@
 
         </div> <!-- container3-inner -->
 
-        <div class="container3-inner">
-            <h2>Some stuff about me</h2>
+        <div class="container3-inner green-color-trail-cursor">
+            <h2 class="typewriter" style="--n: 19; --speed: 1.8s;">Some stuff about me</h2>
 
             <img src="img/assets/noticeBoard/Picture1.png" alt="Notice Board" id="notice-board">
         </div>
@@ -110,6 +112,8 @@
     <div style="height: 1000px;">
 
     </div>
+
+    <iframe src="footer.html" style="border: none; width: 100%; height: 320px;"></iframe>
 
 </body>
 <script>

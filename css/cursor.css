@@ -1,24 +1,33 @@
-/* cursor styles */
-/* Base default everywhere */
+html {
+    cursor: url("../img/cursors/default.png") 0 0, auto;
+}
+
+a, .cursor-pointer, area[href] {
+    cursor: url("../img/cursors/pointer.png") 3 0, pointer;
+}
+
+p, h1, h2, h3, h4, h5, h6, li {
+  cursor: url("../img/cursors/text.png") 16 16, text;
+}
+
+
+
+/* 
 html { cursor: url("../img/cursors/default.png") 0 0, auto; }
 
-/* Make all elements inherit the base unless overridden */
 *, *::before, *::after { cursor: inherit; }
 
-/* Interactive targets */
 a, area[href], button, .navbar-link {
   cursor: url("../img/cursors/pointer.png") 3 0, pointer;
 }
 
-/* Text-entry/selection areas */
 input, textarea {
   cursor: url("../img/cursors/text.png") 16 24, text;
 }
 
-/* (Optional) If you really want text cursor over headings/paragraphs */
 p, h1, h2, h3, h4, h5, h6, li {
   cursor: url("../img/cursors/text.png") 16 24, text;
 }
 
 
-
+ */

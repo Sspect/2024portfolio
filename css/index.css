@@ -1,32 +1,4 @@
-.typewriter {
-    font-size: 6vw;
-    --speed: 2.8s;
-    white-space: nowrap;
-    overflow: hidden;
-    border-right: .1em solid currentColor;
-    animation:
-        typing var(--speed) steps(var(--n)) forwards,
-        caret .7s step-end infinite;
-}
 
-@keyframes typing {
-    from { width: 0; }
-    to { width: calc(var(--n) * 1ch); }
-}
-
-@keyframes caret {
-    50% {
-        border-color: transparent;
-    }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .typewriter {
-        animation: none;
-        width: auto;
-        border-right: none;
-    }
-}
 
 
 
@@ -79,6 +51,7 @@
 }
 
 .container3-inner {
+    color: #275317;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -89,10 +62,11 @@
 
 #notice-board {
     height: 400px;
-    margin: 20px;
+    
 }
 #cabinet-img {
     height: 400px;
-    margin-top: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
