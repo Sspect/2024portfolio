@@ -1,0 +1,49 @@
+.project-container h1{
+
+    margin: 0px;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #9bd486;
+}
+
+.project-container p{
+    font-size: 22px;
+    color: white;
+    margin: 0px;
+    
+    padding: 20px;
+}
+
+.project-container a{
+    font-size: 22px;
+    color: rgb(98, 151, 255);
+    margin: 0px;
+    padding: 20px;
+    text-decoration: none;
+}
+
+.project-container .image-container {
+    
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+}
+
+.project-container .image-container::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(to left, rgba(0, 0, 0, 0) -500px, rgba(0, 0, 0, 0.8) 100%);
+    pointer-events: none;
+}
+
+.project-container .image-container > * {
+    position: relative;
+    z-index: 1;
+}
